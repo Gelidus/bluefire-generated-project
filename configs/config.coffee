@@ -5,10 +5,10 @@ module.exports = {
   port: 9000
 
   # set the parser to the default one ( this is done automatically
-  parser: 'default'
+  parser: "packetbuddy"
 
   # set parser construction arguments
-  'default': {
-    conditionField: 'opcode' # you must specify field "opcode" then in packet head
+  packetbuddy: {
+    conditionField: "opcode" # you must specify field "opcode" then in packet head
   }
 }
